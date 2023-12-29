@@ -334,3 +334,27 @@ Mehr Informationen hier auf der [Website des dfki][dfki-website].
 [dfki-website]: https://www.dfki.de/web/forschung/projekte-publikationen/projekt/iqexpert
 [treeditor-url]: https://github.com/DFKI-NI/treeditor
 [virtualenv-url]: https://virtualenv.pypa.io/en/latest/index.html
+
+## Löschen der Tabellen
+```
+drop table IQE_auth_group;
+drop table IQE_auth_group_permissions;
+drop table IQE_auth_permissions;
+drop table IQE_auth_user;
+drop table IQE_auth_user_groups;
+drop table IQE_auth_user_user_permissions;
+drop table IQE_core_datatype;
+drop table IQE_decision_decision;
+drop table IQE_decision_expertrequest;
+drop table IQE_decision_requestdata;
+drop table IQE_django_admin_log;
+drop table IQE_django_content_type;
+drop table IQE_django_migrations;
+drop table IQE_django_session;
+drop table IQE_tree_color;
+drop table IQE_tree_tree;
+drop table IQE_tree_treekind;
+drop table IQE_tree_treeleaf;
+drop table IQE_tree_treenode;
+drop table IQE_tree_version;
+```

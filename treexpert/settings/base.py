@@ -34,6 +34,7 @@ CORS_ORIGIN_WHITELIST = ("http://localhost:4200",)
 # Application definition
 
 INSTALLED_APPS = [
+    'django_db_prefix',
     "corsheaders",
     "core.apps.CoreConfig",
     "decision.apps.DecisionConfig",
@@ -118,3 +119,6 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# table prefix name
+DB_PREFIX = 'iqe_'

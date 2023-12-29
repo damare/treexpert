@@ -18,3 +18,4 @@ pydantic-core==2.14.5
 sqlparse==0.4.4
 tomli==2.0.1
 typing-extensions==4.8.0
+django-db-prefix==1.0.5
