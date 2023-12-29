@@ -358,3 +358,10 @@ drop table IQE_tree_treeleaf;
 drop table IQE_tree_treenode;
 drop table IQE_tree_version;
 ```
+
+## JSON Constraint entfernen
+Bei Oracle Versionen < 20
+```
+alter table iqe_tree_treenode disable constraint SYS_C00263440; -- JSON Constraint
+alter table iqe_decision_requestdata disable constraint SYS_C00263474; -- JSON Constraint
+```
