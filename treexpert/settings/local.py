@@ -3,7 +3,7 @@
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql",
+        "ENGINE": "django.db.backends.oracle",
         "NAME": "postgres",
         "USER": "postgres",
         "PASSWORD": "Password",

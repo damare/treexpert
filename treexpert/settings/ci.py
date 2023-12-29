@@ -2,7 +2,7 @@ from .base import *
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql",
+        "ENGINE": "django.db.backends.oracle",
         "NAME": "ci",
         "USER": "postgres",
         "PASSWORD": "Password",
